@@ -23,7 +23,12 @@ public class ImportTweetModel extends LonelyTweetModel
 	public String getText() {
 		return "important! " + super.getText();
 	}
+	@Override
+	public Date getTimestamp() {
+		return null;
 	}
+	}
+	
 
 	
 	
