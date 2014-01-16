@@ -3,7 +3,7 @@ package ca.ualberta.cs.lonelytwitter;
 import java.util.Date;
 
 
-public class ImportTweetModel extends LonelyTweetModel
+public class ImportTweetModel extends AbstractTweetModel
 {
 
 	public ImportTweetModel(String text, Date timestamp)
