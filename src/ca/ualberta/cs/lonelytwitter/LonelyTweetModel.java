@@ -4,7 +4,7 @@ import java.util.Date;
 public abstract class LonelyTweetModel
 {
 	private String text;
-	private Date timestamp;
+	protected Date timestamp;
 	
 	public LonelyTweetModel(String text)
 	{
@@ -31,11 +31,7 @@ public abstract class LonelyTweetModel
 	
 	public abstract Date getTimestamp();
 	
-	
-
-	public void setTimestamp(Date timestamp)
-	{
-	this.timestamp = timestamp;}
+	public abstract String GetTypeTweet();
 	
 
 }

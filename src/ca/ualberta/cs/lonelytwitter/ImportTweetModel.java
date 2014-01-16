@@ -13,8 +13,7 @@ public class ImportTweetModel extends LonelyTweetModel
 		// TODO Auto-generated constructor stub
 	}
 
-	public ImportTweetModel(String text)
-	{
+	public ImportTweetModel(String text){
 
 		super(text);
 		// TODO Auto-generated constructor stub
@@ -25,9 +24,17 @@ public class ImportTweetModel extends LonelyTweetModel
 	}
 	@Override
 	public Date getTimestamp() {
-		return null;
+		return super.timestamp;
 	}
+
+	@Override
+	public String GetTypeTweet()
+	{
+
+		// TODO Auto-generated method stub
+		return "important tweet";
 	}
+}
 	
 
 	
